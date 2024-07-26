@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: stockAnalysis
+          uri: lb:http://STOCKANALYSIS
+          predicates:
+            - Path=/api/v1/**  #todo add stockAnalysis after v1/
+
+  server:
+    port: 8222
