@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5431/postgres
-    username: scottkang123
-    password: scottkang123
+    username: ***
+    password: ***
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -21,8 +21,8 @@ spring:
 alpha:
   vantage:
     api:
-      key: 147M4EGNZUP8RG6M
-      key_2: FLV56XYTYRHQ6SMM
+      key: ***
+      key_2: ***
       url: https://www.alphavantage.co/query?function=OVERVIEW&symbol=%s&apikey=%s
 
 csv:
